@@ -1,0 +1,1025 @@
+Javascript: 
+	=> It is a high level scripting language which use to provide a behaviour to the html elements. 
+
+Javascript History: 
+	=> using browser 
+	=> first browser => www => tem berner lee => 1889
+	=> first popular => Mosaic => 1991 
+	=> 1993 => andressen and jim clark => netscap communication carporation 
+			=> netscap navigator :
+	=> 1994 => engineer => Branden Eich (founder of mozila), 
+			=> scripting language within 10 days => Mocha 
+			=> 1.0 => 1994 => livescript
+			=> netscap partnership sunmicrosystem => Java (most popular) 
+			=> 2.0 => 1995 => javascript 
+	=> netscap navigator => javascript 
+	=> user problem = www.apnaintitute.com(open in internet Explorer for good experience) 
+	=> netscap submitted the javascrpt to ECMA =>  (Europion Computer Manifactiring Association) 
+	=> ECMA creates a standard document for scripting language 
+	=> Oracle Javascript
+	=> ECMA Script  
+	=> 2015 ESC-V-6 
+	
+
+=> What was the first Name of Javascript  => Mocha
+=> Who is founder of Javascript => Branden Eich 
+=> what was the name of javascript after Mocha ? => LiveScript 
+=> when the javascripts first version was released and with whcih name? => 1994, livescript
+=> at which release the livescript becomes javascript ? 2.0 = javascript => 1995 
+=> What the largest update for ECMA Script and when it has done? ESC-V-6 
+	
+	
+===========================================================================================
+JAVASCRIPT FEATURES: 
+	i) High-level programming language: 
+		=> the javascript is a high level programing language which we can 
+		   understand a learn easily. 
+		   
+	ii) Dynamic Typing: 
+		=> Javascript is dynamically typed language, 
+		=> allowing variables to hold values of any data type without explicit type declearation.
+		=> This flexibility makes it easier to write and maintain code. 
+	
+	iii) Cross-Platform compatibility : 
+		=> javascript is supported by all major web browser, 
+		=> making it a cross-platform langguage for web development. 
+		=> Javascript can also be used on the server-side (e.g. with NodeJs) , userside (fullstack) 
+		   development with a single language. 
+	
+	iv) Rich Ecosystem and Libraries: 
+		=> Javascript has a vast ecosystem of libraries and frameworks (e.g. React, Angular, Vue.Js) 
+	
+	v) Event handing: 
+		=> event handling allow developers to create interactive and responsive web appliction. 
+	
+	vi) Client-side Scripting: 
+	
+	vii) class and object-Oriented programing: 
+
+=================================================================================================
+
+	English								Program 
+	alphabets and digit 			alphabets and digit special symbole/operator  
+	word and number 				variables and datatypes 
+	senteces						statement and instruction 
+	paragraph  						function /program 
+	lession 						class 
+	book 							modules / software 
+	
+	
+==================================================================================================
+comments: 
+		=> it is used as document or as describer code. 
+		=> it is additional line code/information in the coding. 
+		   which the compiler not compile. 
+		=> its is just like a dead text which we can show only on the screen.
+		=> generally it used to provide addition information about the code. 
+	
+* there are two types of comments. 
+	i) inline comment: 
+		=> it create/convert a single line as comment. 
+		=> to create a single comment use // double slash 
+		ex. 
+			//this is inline comment 
+			
+			
+	ii) multi line comment:
+		=> it create/convert multiple lines into the comments. 
+		=> to create multi line comment use /* to open and */ to close the comment. 
+		ex. 
+			/* this is 
+			multiline comment*/
+
+=======================================================================================
+Variable : 
+	=> The variable is the name of memory location/address where we store the data. 
+	=> The variable works just like a container where in we can store our data. 
+	
+	Naming Conventions rules: 
+	=> Use CamelCase: 
+		UPPERCASE 
+		lowercase
+		Apple 
+		Camale   firstName		myFirstAddharCardNumber: 
+	
+	=> Use Meaningfull variable name: 
+			a=10
+			b=20
+			c=a+b; 
+	=> We can't use number at starting of variable Name: 
+		3userAge = wrong pattern   //SyntaxError: Invalid or unexpected token
+		
+	=> we can end or we can get number in variable name: 
+		user1Age: 
+		userAge1: 
+	
+	=> We cant use special symbole/ special charector  without $ (doller) and _ (underscore) ; 
+	
+==================================================================================================
+We have two important part of variable 
+i) variable declearation :
+	=> when we declear the name of memory location where we are going to store any value. 
+	ex. 
+		var firstName; 
+		let firstName; 
+		const firstName; 
+
+ii) variable defination/intilization: 
+	=> when we store/assign any value in the variable that is we called variable defination/ 
+	   variable inilization. 
+	   ex. 
+	   var firstName; //declearation of variable 
+	   firstName="aman"; //initialization/ defination of variable* 
+	   
+	* we can use these both stages combinly. 
+	ex. 
+		var firstName=20; we have use declearation and defination both. 
+		
+======================================================================================
+What is let, const, and var ? 	
+=> these are the special keywords in javascript which decide the behaviour and the scope
+   of variable. 
+ 
+ i) behaviour of variable: 
+	=> var :
+		=> we can redeclear and redefine the variable when we decleare the variable with 
+		   var keyword. 
+		   var firstName; // declearation 
+		   var firstName; // redeclearation 
+		   
+		   firstName="aman" // initialization/ defination 
+		   firstName="Raman" // redefination 
+		 
+		 => it will get the last initialized value. 
+		   
+	=> let : 
+		=> we can redefine the variable but we can redeclear that variable 
+			
+			let firstName; //declearation 
+			let firstName; //redeclearation
+			
+			
+			 firstName = "aman" //defination 
+			 firstName ="Raman" //redefination 
+		=> if we try to redeclear the variable with let keyword it will throw the error of syntax. 
+		
+			 
+	=> const: 
+		=> we can't redeclear nor redefination the variable. 
+		=> we have to give the declearation and defination combinly with const keyword. 
+		
+			const firstName="aman"; //declearation & defination 
+			
+			firstName; //wrong 
+			
+			 firstName="aman" //wrong 
+	
+* from 1995 - to 2015 there were only one keyword in javascrpt to decleare a variable. 
+   and that is var. 
+* let and const keyword has included in ES6 in 2015.    
+===================================================================================================	
+	
+ ii) Scope:
+	=> scope is the range or the limitations that decides where the variable will accessable. 
+	
+	* there are three types of scopes in javascript. 
+	=> the scope of variable is depends on two things in javascript 
+		i) where you have decleare the variable. 
+		ii) which keyword you have use to decleare the variable. 
+	
+	
+	a) global scope: 
+		=> the global scope is accessable in any where or in every function of the file. 
+		=> we can use every keyword like var/const/let to decleare global variable. 
+		
+		
+	b) functional/ local scope: 
+		=> when our variable is accessable in only a function it calledc functional scope. 
+		=> when we decleare a variable inside of function. 
+		=> we can use let/const/var keyword also for function /local scope. 
+		
+		
+	c) block level scope: 
+		=> when our variable is decleared in a particular block of function 
+		=> it get block scope automatically. 
+		=> it will be limited/ accessable till the block only.
+		
+		But, 
+		=> here the var keyword has functional scope by default. 
+		=> if you have decleared the variable with var keyword in block 
+		   it will works for everyblock of function. 
+
+=============================================================================================
+DATA TYPE: 
+	Data type decleare that which type of data we are going to store using variable. 
+	
+	there are two data types in javascript 
+	i) primitive data types: 
+		=> these are the basic data types/inbuild data types. that can not be changed and it directly operated 
+		   upone their value rather than reference. 
+		   let myName="aman"
+		1) string: 
+			=> 	this datatype represents the charect or charector set enclosed withing 
+				single code ('aman'), double code "aman" and backtick `aman` 
+				
+			=> with the single and double code we can use our variables using coma(,) or plus sign(+) 
+				ex. console.log('My Name is : ', name ,'and', mySentence );
+				
+			=> with the backtick we don't have need to join/ concatinate using , or + sign 
+				we can directly use the variables withing the backtick using ${} syntax.
+				ex. 
+				console.log(`my Name is ${name} and ${mySentence}`)
+			
+		2) Number: 
+			=> Number datatype represent both integer and floating-point numbers.
+				ex. 
+				1.5 floating point. 
+				10 integer 
+				-10
+				-1.5 
+				infynit
+				NaN 
+		
+		3) Boolean: 
+			=> it represent a logical value indicate 'true' or 'false'
+		
+		4) Null: 
+			=> Represent the intentional absence of any value. 
+			=> it has only one value that is null
+			=> firstName=null 
+		
+		5) undefined: 
+			=> Represents a variable that has been decleared but not assigned a value. 
+			=> it means we don't have get any right now but we can assigned any value 
+				with any condition or not.
+		
+		6) BigInt:  
+			=> BigInt datatype has include in javascript in 2020 in the 11 ver of ES. 
+			=> bitInt represent the large number 
+			=> we should give 'n' at the last of given large number 
+			ex. 
+				099027349723494723498383n
+			=> it was the solution to perform any operation with large number. 
+		
+		7) symbole : 
+			=> this datatype introduce in ES-5 
+			=> Represents aunique identifier. 
+			syntax / ex: 
+			let myName=symbole("aman") 
+			let mySecondName="aman" 
+			=> this both are not equal because we have give the unique identity ot myName 
+			   using symbole identifier. 
+	=====================================================================================================		
+		   
+	ii) noneprimitive data types./composite data type: 
+		=> None primitive data types are derived from primitive datatypes.
+		=> it is also known as derived data types or reference data types. 
+		=> we can store single/ multiple store at particular memory location. 
+		=> we can store multiple types of value in the none primitive data type. 
+		
+		* there are mainly two data types in none primitive data type. 
+		a) Array: 
+			=> In javascript array is a special type of object used to 
+			   store multiple values in a single variable.
+			=> Array can hold elements of any data type, including other arrays, object, function or 
+			   a combination of all these. 
+			=> each element of array has the index number as it's reference. 
+			=> the index number starts from 0 and then 1,2,... so on. 
+			=> while we use only on value from multiple value of array we use index number as reference. 
+			=> we can print particular value using varName[indexNumber]
+			syntax: 
+				i) Using Square / Array bracket: 
+				let myArray=[1, "aman", 2, true, undefined]
+			=> index Number  0    1     2   3     4
+				console.log(myArray); 
+				console.log(myArray[3]) 
+				
+				ii) Using the Array Constructor: 
+				let colors = new Array('red', 'green','blue'); 
+				console.log(colors); => red,green,blue 
+				console.log(colors[1]) => green 
+				
+				
+			=> we can modify the array using following syntax. 
+			
+			let colors=new Array('red','green','orange',)
+				* colors[1]="Orange"
+				console.log(colors[1]) 
+				output => Orange
+=======================================================================================				
+				
+		b) Object: 
+			=> object is also a none primitive data type where we can store 
+			   multiple values in on variable. 
+			
+			=> we have to use a reference to get particular value from stored values. 
+			
+			=> the reference will key use in object. 
+			
+			=> object store data  in key : value pair. 
+			
+			=> we can create object with two type of syntax 
+				i) using literals :
+					ex. 
+			
+					var person={
+						name:"aman", 
+						age: 32, 
+						address:"NaviMumbai", 
+						graduate:true 
+
+					}
+			=> we can print particular values using .keyName
+					console.log(person.name, person.age)
+
+	
+				ii) using object constructor 
+				
+					ex. 
+											
+					let person2=new Object(); 
+					person2.name="Aman"; 
+					person2.age=32;
+					person2.address="NaviMumbai"
+
+					console.log(person2["name"])
+				=> we can print particular value in object constructor method using 
+				   objectName["keyName"]
+
+=====================================================================================
+Operator: 
+	=> Operator is a special symbole which perform particular  operation on operand.
+	=> operand is the value on which we perform any operation using operator. 
+		10 + 20 
+		operand= -10,20 
+		perator= + 
+		operation= addition. 
+	
+	=> howmany and which are the operator in javascript? 
+	
+	=> there three basic/main type of operator in javascript. 
+		i) unary operator (++) (--)
+			=> which operator perform any operation on one operand(value). 
+			a) increament (++)=> 
+				preinreament = (++operand) 
+				=> preIncreament increase the value before operation 
+				post increament=(operand++) 
+				=> post increament incease the value after operation 
+				
+				
+			b) decreament (--)=> --decreaement / decreament--
+			
+			
+			
+			
+			
+		ii) binary operator 
+			=> which operator perform any task/operation on two operand (values). 
+				A) Arithmatic Operator: 
+					=> the operator which helps to perform mathematical operations.
+					=> it generally works on two operand. (binary arithmatic operator) 
+					
+					+, -, *, /, %, ** =2^5 
+					
+					13%2 = 6 answer/division  
+					12	 = 
+					1	 = reminder 
+					
+				B) Assignment Operator: (=) 
+					=> we use this operator to assign a value of one operand in another operand. 
+					=> we will assign the right side operand of operator,  in leftside operand of operator. 
+					ex. 
+						firstNumber=10; 
+						secondNumber=20;
+						firstNumber=secondNumber; 
+						
+						let myArray=[2,3,4,5]
+						let myObject={
+						
+										}
+					
+				C) Comparision / relational Operator: 
+					=> the comparision/ relational operator use to determind equality / to determind the difference between 
+					   two operand. 
+					=> it will return true or false. 
+					== : it compare the equality  of both operand's value.  
+					===: it comapare the equality of both operand's value and also data type of operands. 
+					<  : it compare the first operand is lessthan second operand. 
+					>  : it caompare if the first operand is greater than second operand. 
+					<= : it compare if the first operand is less than or atlist equal to the second operand. 
+					>= : it compare if the first operand is greater or atlist equal to the second operand. 
+					
+		
+				d) Logical Operator: 
+					=> Logical operators are used to determine the logic between the variable or value.
+					=> generally we use logical operator && and || with multiple condition. 
+					
+					&& 		||   	! 
+					
+					&& => it check both / all the condition/logic true or not.
+					   => if any one logic is not true it will return : false 
+					   => there should be all the condition give using && operator. 
+					
+					|| => it check all the given conditions and will give a true statement if 
+					      atlist one condition is correct. 
+					
+					
+		
+		
+		
+		iii) ternary operator
+			=> which operator perform any task/operation on three values it called ternary operator. 
+			=> the ternary operator works with a condition statment. 
+			+ - * / 
+			
+			 
+			
+			(condition) ? (state1) : (state2)  
+			value1 ? 	vlaue2 :	value3
+			
+			value1 = it is the condition which we are using to show next output. 
+			value2 = it is the value if the condition is true. 
+			value3 = it is the value/ operand which will display/return if the condition is false. 
+			
+			sign = 
+			? 	= this sign check the condition given before is true or false.
+			: 	= the colon sign saperate the operand two and three 
+				= if the condition is true the value2 which is the left side of colon will display. 
+				= else value3 which is the right side of colon will be display. 
+		
+====================================================================================================
+
+english => 			words, 					special sy    sentences 
+programing(js) => 	variable, datatype,		operator 		statement  
+
+
+Statements: 
+	=> The combination of datatype,variable and operator is the statement. 
+	=> Statement are the command to tell the browser what action to perform. 
+	=> var a =10; 
+	=> statement are saperated by semicolon (;).
+
+Types of Statement: 
+	i) declearation statement: 
+	=> 	when ever we declear any variable, function and class we use declearation statement. 
+		var a;  a=10; 
+		function aman(){}; 
+		class use {} ; 
+
+	ii) Control Flow Statement: 
+	=> when we use the statement to control the flow of data / program it called control flow statement. 
+		a) conditional statement/ branching statement : 
+			=> It is use to exicute program with respect to certain condition. 
+			=> using branching statement we can conteol the flow of program/ code. 
+			
+			var a=10 ;
+			
+			
+			login => dashboard/ alert massage / new registration
+			
+			ex. if, if----else, else if lader
+			
+			if : if statement will show the result if the condition is true. else it will not show the result. 
+			syntax: 
+				if(condtion){
+				code to exicute
+				} 
+				
+				
+			if----else: 
+				if else statement will show block for correct condition and also will show the result 
+			for wrong condition. 
+				syntax: 
+					if(condition){
+					block to exicute if the condition is true.
+					} else {
+					if the condition is false
+					}
+			
+			else if lader : 
+				is the facility to get multiple condition. 
+				syntax: 
+					if(condition1){
+					}
+					else if(condition2){
+					
+					}else if(condition3){
+					
+					} 
+					else if(condition4){
+					
+					} 
+					else
+					
+					{
+					
+					} 
+					
+					
+Switch Case: 
+		=> we have multiple cases/ 
+		=> It use to switch /exicute a block of statement to select one of many code blocks. 
+		=> it finds the exact match. 
+		=> we use break; statement / keyword to stop the compilation after match exact condition/ value.
+		
+		syntax: 
+			switch(condition/match){
+				case 1; 
+				console.log(Marathi) ; 
+				break; 
+				case 2: 
+				console.log(hindi); 
+				break: 
+			
+			}
+	
+
+	example: 
+			let language=2; 
+
+switch(language){
+  case 1: 
+  language="English";
+  console.log("This is",language);
+  break; 
+
+  case 2: 
+  language="marathi";
+  console.log("This is",language);
+    break; 
+
+  case 3: 
+  hindi="Hindi"
+  console.log("This is",hindi);
+    break; 
+
+  default:
+    mobile="no match"
+    console.log("no match")
+
+}
+
+
+
+
+Jumping statement: 
+	=> 
+
+
+
+
+
+
+
+
+
+				
+==================================================================================					
+					
+		b) looping statement/ iteration statement: 
+			=> Javascript loops is a powerful tools for performing repetitive tasks efficiently.
+			=> loops execute a block of code again and again while the condition is true. 
+				
+				i) for loop: 
+					syntax: 
+						for(initialization; testing condition; increament/decreament statement){
+							
+						}
+						
+					ex. 
+						print welcome for 10 
+						print 1 -10 
+					=> 
+					
+					
+					
+					
+				ii) while loop : 
+					=> initialization , condition , increaement or decreaement
+					=> entry control loop; 
+					=> it check the condition before enter in the block 
+					=> if condition is true it will enter into the block 
+					=> if condition is false it will not enter/go out of block.
+					
+					syntax: 
+						let val=1;                //initialization
+						while(val<=10){          //condition
+							statement			//statement/block of code
+							val ++ / --	  	   // increament/decreaement
+							}
+					
+				iii) do-while loop: 
+					=> initialization, statement , condition
+					=> exit control loop. 
+				
+				syntax: 
+					let val=1; 				//initialization
+					do{
+						statement			//statement or block of code
+						val++				//increaement / decreament 
+						}
+					while(val<=10)			//condition 
+				
+				
+				iv) for-of loop: 
+					=> generally it used to works with array. 
+					=> it will print all the value from array. 
+					
+				v) for in loop : 
+					=> generally it used to works with object. 
+					=> it gives the key and value of object. 
+			
+			
+			
+			
+		c) jumping statement: 
+			=> using jumping statement we can control the flow of program. 
+			
+		   Break ; 	=> we generally use break statement in switch case;
+					=> it break or stope the compilation when it got the correct case 
+					ex. 
+					
+					let language=2; 	//match case 2 
+
+					switch(language){
+					  case 1: 
+					  language="English";
+					  console.log("This is",language);
+					  break; 
+
+					  case 1: 
+					  language="Nokia";
+					  console.log("This is",language); 
+						break; 
+
+					  case 2: 	------------------// match and print this case
+					  language="Vodafon"
+					  console.log("This is",language);
+						break; ------------------// stope compiling after this case
+
+					  default:
+						language="no match"
+						console.log("no match")
+
+					}
+					
+					
+					
+					
+		   continue;=> we generally use continue statement in loop;
+					=> it will skip the loop till the condition given for continue.  
+				ex. 
+					for(let i =1; i<10; i++){-----------------//print i vale till 9 
+					
+						if(i<2){ 
+						continue;	------------------------- // value skip till it is less than 2  
+						} 
+						console.log(i) ; 
+						}
+			
+					
+	
+
+ 
+
+==============================================================================================
+FUNCTION: 
+	=> function is a combination of verious statements. 
+	=> function is a block of code which designed to pereform a particular task. 
+	
+Advntages/properties of javascript function: 
+	=> Code reusability. 
+	=> function exicute the only when we call it. 
+	=> we can call function many times to reuse the code. 
+	=> it makes our progrm compact. 
+	=> we don't need to create many lines of code to perform same task. 
+	
+comman Syntax of a function: 
+	i) function declearation: 
+		=> use function keyword. 
+		=> give the correct name to the function. 
+			- use correct naming convension for the declearation of function. 
+			- additionForTwoNumbere, x, addition, add, addition_for_two_number()
+			ex. 
+		function additionForTwoNumber(){}
+		
+		=>give paranthesis and curly bracket.
+		
+	ii) function defination: 
+		=> the code / block of code where we will write the task/ exicutable code. 
+		ex. 
+		function additionForTwoNumber(){
+		
+		let firstNumber=10 ;
+		let secondNumber=20 ; 
+		let result = firstNumber+secondNumber; 
+		console.log(result)
+								}
+	
+	iii) function calling: 
+		=> function doesn't work / exicute till we don't call the function 
+		=> use function name and paranthesis only. 
+		ex. 	additionForTwoNumber(); 
+		
+	ex. 
+		function additionForTwoNumber(){
+			let num1=10; 
+			let num2=20; 
+			
+			let result = num1+num2; 
+			
+			console.log("the addition of number1 and number 2 =" , result); 
+			}
+		
+		additionForTwoNumber();
+			
+=================================================================================
+function has some types as their functionality property. 
+i) simple function :
+	syntax: 
+		function delcearation => function fName (){}
+		function defination   => function fName(){
+		
+											statement 
+												} 
+		function calling 		=> fName();
+
+============================================================================
+Parameterized function: 
+	=> when we want change the values each time while we call function, 
+	=> if we want to use dynamic value not static we use parameterized function. 
+	=> we can call function by passing the value of parameter/ argument. 
+	=> function arguments are parameter and the function recieved it when it 
+	   invocked. 
+	=> we can perform same task with defferent value each time using parameterized function. 
+	
+	function fName(parameter1, parameter2, parameter3){
+	
+	code to be exicute
+	}
+	
+	fName(value for parameter1, value for parameter2, value for parameter3)
+===================================================================================
+
+RETURN FUNCTION: 
+	=> the return function is used to specify the value, 
+	   that value should return where we use/ call that particular function. 
+	=> where we call that function it returns a value which we have specify return from
+	   that function using return statement. 
+	=> we can use this function / function calling in our code like a variable. 
+	   
+	syntax: 
+		fName (){
+		return value
+		}
+		
+		call the function where you want that value/return value.
+		fName() //=== value
+
+==============================================================================
+
+ADVANCE FUNCTION IN JAVASCRIPT: 
+
+i) 	function define by expression: 
+	=> when we store a function in a variable it's called function define by expression.
+	vName=function(){}
+	=> a variable in which we define the function it called expression. ex. vName is expression. 
+	=> we should call the function by it's expression name ex. vName()
+	=> we can't call function expression before function defination. 
+	=> function expression in javascript are not hoisted function declearation. 
+	
+	
+	const vName;  (declearation)
+	vName=20;   (defination) 
+	
+	
+	function declearation => simple, para, return 
+	function defination => define by expression, anonymous function, arrow function
+		
+		written by user 		| converted by hoiting 
+								|
+		vName=20;				|  	let vName (it comes up automatically by hoiting)
+		console.log(vName)   	|	vName=20
+								|	console.log(vName);
+		let vName				|	
+	
+
+ii) Anonymous function: (anonymous = without name)
+	function (){}
+	=> the function without name call anonymous function. 
+	=> we should call this function using expression name. 
+	
+	let eName=function (){}
+	
+	eName(); //calling 
+	
+	
+iii) arrow function/ fat affrow function : 
+	=> the arrow function is a new feature of ES6 version. 
+	=> it is just a short syntax to define a new function. 
+	=> if we have only one line of staement in the function for arrow function 
+	    we don't need to get {}/block. 
+	=> if we use return statement in the arrow function we dont need to use return keyword
+	
+	let eName=()=>'welcome' 
+	
+	
+Function calling : 
+	fName(); fName(10), eName(), eName(20) 
+
+parameterized => fname(value) 
+
+	=> 	when pass primitive type data/ value as argument/parameter we called it as 
+		the function call by value.
+	=> 	when we pass none primitive data type as argument/parameter we called it as
+		the function call by reference. 
+	=> when we call a function by value we deal with value each primitive 
+	   data type/ value get a new memory. 
+	=> but while we call a function by reference it deal with the memory location not with 
+	   value.
+
+var num1=10; 
+var num2=num1; 
+num1=20; 
+
+
+console.log(num1);  => 20
+console.log(num2); 	=> 10 
+
+
+let arr=[20,30,40] 
+arr[2]=arr[1]
+arr[1] = 50; 
+
+
+console.log(arr[1]) 
+
+
+
+
+fName(arr)
+
+
+======================================================
+callback function (): 
+=> when we pass a function as argument of another function 
+   in this case which function we pass as argument that called callback function. 
+   ex. 1 
+   function aman(a){
+   
+   }
+   aman(function aman2(){console.log("welcome");) 
+   
+   ex.2
+   function one(){
+   
+   }
+   
+   
+   function two(a){
+   
+   
+   }
+   two(one); 
+   
+   ex.3
+   function result(a){
+		a(10,20)    
+					}
+	result((a,b)=>{console.log(a+b)})
+
+   
+   
+   
+   ex.4
+   
+   function addition(a,b){
+    res=a+b; 
+    console.log(res) ;
+}
+
+function substraction(a,b){
+    res=a-b;
+    console.log(res)
+}
+
+
+
+function result(a,b,c){
+    c(a,b); 
+}
+result(10,20,addition)
+result(20,30,addition)
+result(30,10,substraction)
+   
+   
+   
+============================================================================
+Higher Order Function: 
+=> when we return a function in return statement in another function. 
+=> in this case we called it as higher order function. 
+=> when we use callback in another function that another function is also a 
+	higher order function. 
+
+function fName(){
+return function aman(){}
+}
+fName()
+
+
+ex. 
+function result(){
+    return function addition(){
+        console.log("welcome")
+    }
+}
+console.log(result()())
+
+=========================================================================================
+IIFE (Imidiate Invocke Function Expression): 
+
+=> IIFE is stands for Imidiate Invocke Function Expression. 
+=> we don't need to call this function saperately 
+=> it call itself while code is running. 
+
+Syntax: 
+	(function fName(){
+		exicution code
+		}())
+		
+	ex. 
+	
+	(a= function (){
+    console.log('welome')
+}())
+
+
+
+
+============================================================================================
+simple function :
+function fName(){
+exicution code
+} 
+fName()
+
+parameterized function :
+function fName(para1,para2){
+exicution code
+console.log(para1 + para2)
+}
+fName(10,20) 
+
+
+
+return function:
+
+function fName(){
+return 'welcome'
+} 
+console.log(fName()) 
+
+
+function define by expression: 
+let a=function fName(){
+
+}
+a() 
+
+
+anonymous function : 
+let a=function (){
+
+
+}
+a()
+
+
+arraow function :
+
+let a=()=>welcome
+
+
+console.log(a())
+
+
+IIFE 
+(function FName(){
+
+}()); 
+=======================================================================================
+rest parameter  
+	
+
+
+pread operator 
+
+
+===============================================================================
+advance scope: 
+hoisting : 
+
+closer : 
+ 
+curring :
+ 

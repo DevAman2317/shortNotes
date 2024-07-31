@@ -1,0 +1,503 @@
+Bootstrap: 
+	=> Bootstrap is a poplular open-source front-end frame-work.
+	=> developed by twitter. -> Mark Otto and Jacob thornton. 
+	=> It is a collection of HTML, CSS, and Javascript components design. 
+	=> it simplify the process of building responsive and mobile first web page. 
+	=> Primary goal of bootstrap is to enable developers to create consistent and visually appealing user interfaces 
+	=> it make easy to create all above things in your webpage. 
+
+History / Background: 
+	=> The project started as an internal tool at Twinner. 
+	=> First Version : August 2011. 
+		-> Basic Styling Component. 
+	=> Second Version : January 2012
+		-> Resposive Designing 12 column grid system. 
+	=> Third Version : August 2013 
+		-> Mobile first. 
+	
+	=> Fourth Version : January 2018 
+		-> Complete Rewrite, dropeed support for internet explorer 8 and 9. 
+		
+	=> Bootstrap five : May 5 2021 
+		-> Removed the dependecy on JQery. 
+
+
+Integration of Bootstrap: 
+====================================================================================================
+		
+lAYOUT: 
+	CONTAINER-FLUID: 
+		=> ctainer-fluid is that type of container which get 100%width always of the screen. 
+		=> container-fluid has some properties as follows: 
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			
+	CONTAINER : 
+		=> container change its width each time depend on screen size. 
+		=> the container change it's max-width depend on the size of screen. 
+		=> 
+screen size	Extra Small 		SMALL 			Medium 				Large 			Extra Large 
+			<576px 				>=576px 		>=768px 			>=992px			>=1200px 
+max-width	100% 				540px			720px 				960px 			1140px
+
+==================================================================================================
+	
+Bootstrap Grid:
+	Bootstrap's grid system is built with flexbox. 
+	bootstrap allow up to 12 columns across a page/screen. 
+	grid system is responsive 
+	
+	screen size	Extra Small 		SMALL 			Medium 				Large 			Extra Large 
+				<576px 				>=576px 		>=768px 			>=992px			>=1200px 
+				col- 				col-sm-	         col-md-            col-lg-          col-xl-
+====================================================================================================
+TYPOGRAPHY : 
+
+TEXT COLORS: 
+	Primary
+	secondary
+	sucess 
+	danger
+	warning
+	info
+	light
+	dark
+	muted 
+	
+	
+========================================================================================
+i) img-fluid : 
+=> to create image responsive 
+
+img-fluid{
+	max-width : 100%; 
+	height : auto;
+}
+
+ii) img-thumbnail 
+=> create create image as thumbnail. 
+=> provide a border of white color to the image. 
+
+
+iii) folat-start and float-end: 
+=> to set multiple image in single container at left / right. 
+
+
+iv) class to set image to the center of container. 
+=> d-block mx-auto 
+
+
+v) rounded : 
+=> to set border-radius to the image. 
+
+
+vi) img-responsive : 
+=> to make image responsive 
+
+img-responsive{
+max-width :100%; 
+height: auto ; 
+display : block; 
+
+}
+
+================================================================================================
+classes for Table: 
+
+i) .table:
+	=> set the table as per it's container's width. 
+
+ii) .table{colorName:primary,secondary etc..}
+	=> set the background color to the table without disturbing the table data. 
+
+iii) .table-striped 
+	=> Use .table-striped class to add zebra-striping to the table. 
+	=> to set tables striping with dark color use : table-{color} and table-striped
+	
+iv) .table-hover
+	=> to give the effect when mouse hover on table. 
+	
+	
+v) .table-active
+	=> it create a dark background to show active row/cell 
+
+==============================================================================================
+Forms: 
+
+	=> use class: form-control for every input of form. 
+	=> use class: form-label for every label use in form. 
+
+
+	i) controls 
+		i) sizing: 
+			classes= "form-control form-control-lg "
+	
+		ii) disabled input: 
+			use attribute as : disabled , readonly 
+		
+		iii) Readonly Plane Text: 
+			use attributes as: readonly 
+			class="form-control-plaintext"
+		
+		iv) File Input : 
+			default file input/one file input: type="file" 
+			Multiple file input : type="file" multiple 
+			No files selected : use attribute = disabled  
+			
+		v) Colors: 
+			attribute : value="hexacode", type="color" 
+			class=" form-control form-control-color" 
+			
+		vi) Datalist: 
+			html: lable, input, datalist, option 
+			attribute : input-> list="id of datalist" 
+			
+=================================================================================
+
+i) Select List:
+	default select list: 
+	select: class="form-select" 
+
+	SIZING: 
+		=> Larg: class="form-select-lg"/sm
+		
+	to select Multiple Options: 
+		=> Attribute: multiple 
+		
+	to show multiple options 
+		=> attribute: size="2(number)"
+	
+	to diabled list :
+		=> attribute : diabled 
+	
+	to select option by default: 
+		=> attribute : selected 
+		
+
+
+ii) Check Buttons :
+	to container of checkboxes : class="form-check" 
+	to the label of checkbox   : class="form-check-label" 
+	to the input of checkbox   : class="form-check-input" 
+	
+	to disabled checkbox : attribute = diabled 
+	to checked default checkboxes: attribute = checked 
+	
+
+iii) Radio buttons: 
+	to container of checkboxes : class="form-check" 
+	to the label of checkbox   : class="form-check-label" 
+	to the input of checkbox   : class="form-check-input" 
+	
+	to disabled checkbox : attribute = diabled 
+	to checked default checkboxes: attribute = checked
+	
+
+iv) Switch : 
+	container 	: class="form-check form-switch" 
+	lable 		: class="form-check-label" 
+	input 		: class="form-check-input" 
+				: type = "checkbox" 
+	
+	to get a default on switch	: attribute= checked 
+	to disabled switch 			: attribute= disabled 
+	
+	to get buttons in one line 	: class="form-check-inline" 
+
+
+v) Range :
+	label : class="form-label" 
+	input : type="range" 
+		  : class="form-range" 
+	
+	to disbaled 		: attribute=disabled 
+	to set range min and max : attribute : min='3(number)', max='4(number)'
+	to set the steps in range: attribute: step="0.5(number)' 
+======================================================================================
+
+INPUT GROUPING: 
+	CONTAINER: class="input-group flex-nowrap 
+	SPAN/LABLE: class="input-group-text"
+	INPUT : 	class="form-control" 
+	
+SIZING: 
+	DEFAULT: MEDIUM 
+	SMALL : class="input-group-sm" 
+	LARGE: class= "input-group-lg" 
+====================================================================================
+
+checkboxes and radio:
+	MAIN-CONTAINER: class="input-group" 
+	RAIO/ CHECKBUTTON CONTAINER: class="input-group-text"
+			BUTTON: Class="form-check-input; 
+	
+	INPUT: class="from-control" 
+
+
+========================================================================================
+
+MULTIPLE INPUTS: 
+	CONTAINER: class="input-group" 
+	LABLE/SPAN: class="input-group-text" 
+	INPUT1 : class="form-control" 
+	INPUT2 : class="form-control" 
+
+=======================================================================================
+MULTIPLE ADDONS: 
+
+		CONTAINER: class="input-group" 
+		LABLE1: class="input-group-text" 
+		LABLE2:	class="input-group-text"
+		INPUT: class="form-control" 
+===========================================================
+	
+COSTUM FILE INPUT: 
+	CONTAINER: class="input-group" 
+	LABLE: class="input-group-text" 
+	INPUT: class=form-control" 	TYPE="file" 
+============================================================
+FLOATING LABLES IN FORM: 
+
+CONTAINER: class="form-floating"
+ 
+INPUT : class="form-control"  use placeholder
+LABEL : class="floatinginput" 
+
+======================================================================
+Form Grid: 
+	class="row" 
+	class="col" 
+	class="g-3" : it use to give the marging at one time to all the column/input we get in a row. 
+
+
+Vertical Form Setting : 
+	
+	html : 
+		FIELDSET : class="row" 
+			LEGEND: class="col-form-lebel col-2"  </legend> 
+			
+			
+		MAINCONTAINER: class="col-10" 
+			CONTAINER: class="form-check" 
+				INPUT: TYPE="radio" class="form-check-input" 
+				LABEL : class="form-check-label" 
+			</container>
+			
+			CONTAINER: class="form-check" 
+				INPUT: TYPE="radio" class="form-check-input" 
+				LABEL : class="form-check-label" 
+			</container>
+			
+			CONTAINER: class="form-check" 
+				INPUT: TYPE="radio" class="form-check-input" 
+				LABEL : class="form-check-label" 
+			</container>
+		
+			</fieldset>
+		</MAINCONTAINER>
+		
+
+
+===============================================================================
+
+BUTTONS: class="btn" 
+button classes use for :
+					button 
+					input 
+					anchor <a> </a> 
+	
+	=> color button : class="btn btn-primary"
+	=> to set outline : class="btn btn-outline-primary" 
+	
+
+BUTTONS SIZE: 
+	to get size as small and large 
+	class="btn btn-lg/ btn-sm
+
+
+	to disable button use attribute disabled. 
+
+	to disable anchor button use class="disabled" 
+	
+	
+	to set block of buttons => 
+		CONTAINER: class="d-grid" 
+				buttons: 
+	
+	to get gap between buttons in a block 
+		CONTAINER : class="d-grid gap-1 to 5" 
+	
+	to set buttons to the left of block 
+		CONTAINER : class="d-md-block"
+	
+	
+	to set buttons at center with block size : 
+		CONTAINER : CLASS="d-grid col-6 mx-auto" 
+	
+	to set buttons at right side of block: 
+		CONTAINER : class="d-grid gap-2 d-lg-flex justify-content-md-end"
+	
+============================================================================================
+
+CONTAINER : class="btn-group" 
+	BUTTONS: class="btn btn-primary" 
+	ANCHOR:  class="btn btn-primary"
+	
+	=> we can use the saperate button's classes to each button 
+	=> like buttons colors, button outlines
+	
+	
+	CHECKBOX GROUP: 
+	=> we also can do this grouping with radio and checkbox buttons.
+	CONTTAINER : class="btn-group" 
+	
+		input: class="btn-check" type="checkbox" 
+			=> we have to use id to connect with label : id="box1" 
+			
+		label: class="btn btn-primary" 
+			=> we have to use for="box1" attribute which get value of id to enterconnect with checkbox. 
+		
+		input 
+		label: 
+	</CONTAINER>
+====================================================================
+
+BUTTON TOOLBAR: 
+	MAINCONTAINER: class="btn-toolbar" 
+		SUBCONTAINER : class="btn-group btn-group-lg/sm" 
+			button1 = class="btn" 
+			button2 = class="btn" 
+		/SUBCONTAINER
+	MAINCONTAINER
+
+BUTTON TOLLBAR SIZING: 
+	use class="btn-group-lg/sm" to the subcontainer of button toolbar. 
+	
+=====================================================
+NESTING BUTTON GROUPING: 
+	CONTAINER : class="btn-group"    / vertical buttons ="btn-group-vertical" 
+		BUTTONS: class="btn btn-primary" 
+		ul : class="dropdown-menu" 
+		li : class="drowpdown-item" 
+		/ul
+	/container 
+
+=========================================================================
+CARD: 
+	CONTAINER= class='card'   deside the size of card using style="width:200px" 
+		<img> = class="card-img-top"
+		
+		<div> = class="card-body" 
+			title (h3) = class="card-title" 
+			description (p) = class="card-text" 
+			a/button = class="btn btn-secondary" 
+		
+		</div> 
+	
+	/container> 
+
+==========================================================
+LIST GROUPS: 
+	CONTAINER : class="card" style="width:300px" 
+		div>header : class="card-header" 
+		UL : class="list-group list-group-flush"
+			li: class="list-group-item" 
+		/ul 
+	/container 
+
+=================================================================
+
+CAROUSEL: 
+	<MAINCONTAINER> : class=" carousel slide"  attribute : data-bs-ride="carousel"
+		<subContainer> : class="carousel-inner " 
+			
+			<imagecontainer> (div) : class="carousel-item " 
+				<img> : class="d-block w-50" 
+			</imagecontainer>
+
+			<imagecontainer> (div) : class="carousel-item " 
+				<img> : class="d-block w-50" 
+			</imagecontainer>			
+			
+		</subContainer> 
+	
+		button: class="carousel-control-prev "  data-bs-target ="#id" data-bs-slide="prev"
+				span: class="carousel-control-prev-icon" </span> 
+		/button 
+		
+		button: class="carousel-control-next" data-bs-target="#id" data-bs-slide="next" 
+				span: class="carousel-control-next-icon" </span> 
+		/button 
+	
+	</MainContainer>
+================================================================================================
+DROPDOWN : 
+			CONTAINER: class="drowpdown"
+				button : class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" 
+				/button
+				
+				ul: class="dropdown-menu" 
+					li: <a> class="drowpdown-item" > Item1 </a> 
+					li
+					li
+					li
+					li<hr class="dropdown-divider" </hr> /li
+				/ul 
+			/CONTAINER 
+================================================================================================
+
+			CONTAINER: class="accordion" 
+				ItemContainer: class="accordion-item" 
+					headerContainer: class="accordion-header" 
+						button : class="accordion-button" 
+					/headerContainer	
+						
+						.containertocollapse: class="accordian-collapse" 
+							.bodycontainer: class="accordian-body"
+								para/content:
+								/para> 
+							/bodycontainer
+						/containertocollapse
+					/main-Container
+			
+			
+====================================================================================			
+MODEL : 
+		
+		.CONTAINER
+			BUTTON: class="btn btn-primary" data-bs-target="model" data-bs-toggle="modal" 
+			
+			
+			MODELCONTAINER: clas="modal fade"  
+				
+				.subconainer: class="modal-dialog" 
+					.suubcontainer:class="modal-contain" 
+						.modal-header-container: class="modal-header" 
+							h2 : class="modal-title" 
+							close button : class="btn-close"   data-bs-dismiss="modal"> 			
+						/modal-header
+						
+						
+						
+						.modal-body: class="modal-body" 
+							para/contain 
+						/modal body 
+						
+						
+						
+						.modal-footer : class="modal-footer" 
+							button: class="btn btn-primary" data-bs-dismiss="modal"
+							button : class="btn btn-secondary" 
+						/modal-footer
+					
+					/div
+					
+					/div 
+
+=================================================================================================
+			
+			

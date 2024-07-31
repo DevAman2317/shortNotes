@@ -1,0 +1,793 @@
+Product Based Company: 
+	a software which used multiple people or companies that sotware called product. 
+	and whcih company provide this software that company called product based company. 
+	
+	instagram => advance datastructure , algorithum system disigning , any skil (front end , backend, fullstack, data sientist)   
+	facebook 					 
+	google 	=> interview 	=> 100% =>
+	telegram 
+	flipcard 
+	amazon 
+	whatapp 
+	
+	Packages/eligibility: 	These company select expert robast engineer with large experience and pay them best packages. 
+							which are experts in advance datastructure, algorithum, system designing, any skill ex. 
+							frontEnd, Backend, fullstack, Data Scientst, Tester
+			ex. 10cr / PA 
+			
+	
+
+ii) Service Based : 
+		 
+			the componies which higher engineer and provide them for the project of other foregn company. 
+			ex. 
+				it the TCS hgher to me and TCS is my payrole company which will pay my salary but 
+				i will work for other client of TCS. 
+				JosonsandJonson (for) 20000$	=> Aman 2 lakh	 	TCS=> 10000$  (8,50,000 Rs)  => income 6,50,000 to TCS	
+				basic logical, regular graduation, percentile 60above , no gap 
+			
+			eligibility : Regular graduation without gap from technical background ex, computer engineering, BCA, MCA etc.
+						  they should have upto 60% percentile without backlog. 
+						  they should have work with Basic Logical programmoing ,any skill ex. 
+							frontEnd, Backend, fullstack, Data Scientst, Tester
+			packages: 		22LPA, 15LPA, 10LPA etc 
+
+iii) third partyCompany : 
+				third partyCompanies higher ingineers trained them if necesary and provide them of the service based companies 
+				ex. 
+					higherLab will higher to 'Aman' trained well and provide to TCS if they have requirment of engineer 
+					higherLab will pay decided salary to Aman  and TCS will pay amount to higherlab for Aman in large amount.
+					so now aman is working on a project of the costumer of TCS that is jonson and jonson, TCS paying the amount 
+					for aman to the higherLab company and higherLab giving salary to aman. 
+			
+			eligibility : any graduation, no issue if there is gap. no compulsion about technical background 
+						  they accept background of any faculty.
+						  no compulsion to have upto 60% percentile without backlog. 
+						  they should have work with Basic Logical programmoing , any skill ex. 
+							frontEnd, Backend, fullstack, Data Scientst, Tester. 
+			packages: 		12LPA, 9LPA, 7LPA etc 
+
+		
+
+========================================================================================
+
+anySkill is required at everywhere so What is frontEnd and BackEnd
+i) frontend engineer
+	designing UI UX with fetching data from backed. 
+	this is client side. 
+	=> HTML 
+	=> CSS
+	=> Bootstrap
+	=> javascript 
+	=> Angular / react 
+
+ii) backend engineer : 
+	Creates API and manage Data on server. this is server side.  
+	=> Node Js
+	=> mySQL
+	=> mongodb
+	=> express Js
+
+iii) fullstack engineer 
+	frontend + backend 
+=============================================================================================
+We are going to start with front end so the first target is HTML 
+
+
+What is HTML? 
+=> HTML is stands for Hyper Text Markup Language. 
+
+Language 	: The medium to receive and provide the thinking/ thoughts.
+Hyper Text	: Text within text.  
+markup 		: marking for layout designing.
+
+Who is the founder of HTML? 
+=> Tim Berners Lee. 
+		- He is a Britishh Computer Scientist. 
+		- WWW founder 
+		- CERN 
+		- First Web server , 
+		- first web browser => mozila, google crom 
+			Browser: 
+				Software application that allow users to access and navigate websites. 
+				
+		- he has found HTML in 1991
+		- founder of W3C 
+		
+
+	HTML 1 : (1991) 
+		=> The origanal version created by Tim berners Lee
+		
+	HTML 2 : (1995) : 
+		=> Tables, scripting 
+		
+	HTML 3 : (1997)
+		=> Developed by the World Wide Web Consortium (w3C) 
+		=> images 
+		=> text alignment 
+	
+	HTML 4 : (1999)
+		=> DOM  , icons, javascript, form 
+	
+	HTML 5 : (2008) 
+		=> header, footer, aside, 
+		=> <canvas> 
+		=> October 2014 Oublish by W3C. 
+
+=====================================================================================================
+
+HTML 
+
+HTML Document Structure: 
+
+<html> //: this tag decleares the html document.
+
+
+		<head>  //: contains meta-information about the HTML document, such as the title, character set, linked files. 
+				
+				<title> first page </title>   //: Sets the title of the HTML document, which is displayed on the browser tab or window.
+		</head> 
+
+		<body>  // Contains the main content of the HTML document, including text, images, links, and other element. 
+				
+		</body>
+
+
+</html>  
+
+===================================================================================================================
+Tag : <h1> </h1> 
+	- a tag is a special element used to define and structure the content within an HTML document. 
+	- Tags are written using angle brackets / diamond bracket / greaterthan and lessthan sign < > 
+	-  the tag come in pairs: Opening tag and closing tag 
+	- an opening tag <h1> The Opening tag contains the name of the HTML element,
+	- a closing tag </h1> while closing tag has a forward slash before the element name. 
+
+
+Element: 
+	- <h1> welcome </h1>
+	- an element is a complete component within an HTML document that is composed of a start tag, its content, and end tag. 
+	- Elements are used to define the structure and content of a web page. 
+	- ex. <h1> welcomee </h1> 
+	- Element can be nested inside each other to create more complex structure. 
+
+=========================================================================================================================
+
+Type of Element : 
+	We have two types of elements in HTML. 
+	
+	i) block level element: 
+		- A lock level element always start with new line. 
+		- it takes the full width of web page left to right.
+			<h1> to  <h6> : we use these element to get headings in our webpage
+			
+			<p> </p> : we use this element to get a paragraph in the webpage. 
+			
+			<hr>  : this tag stands for 'Horizontal rule' 
+					it is self-closing tag used to get a horizontal line within the content.
+					used to visually separate sections of the webpage.
+					
+			<small> : to get a hidden or a small size text than normal 
+					  the element is a way to provide additional information, disclaimers, other details without 
+					  distracting from the main content. 
+			<section> 
+			<div> : It is a blocl level element. 
+					it doesn't have any specific semantic meaning on its own. 
+					we can use it as container where we can include some other element. 
+					
+			
+			
+	ii) inline element: 
+			Inline element doesn't capture all the width of document/browser window. 
+			it will just capture the width which is necessary for the contain which we have given inside of element. 
+			
+			<label> : the lable gives the imformation about other element.  
+			<i> 	: We use <i> element to show the italic text.
+			<u> 	: we use <u> element to shhow the underline to given content 
+			<b> 	: we use <b> element to show the bold text of given content. 
+			<span> 	: it also work as a container, or we use to to specialize any containt 
+			<a> 	: <a> stands for anchor which we use to get any hyper text/ hyper link. 
+			<sup> 	: this element use to get a superscript text 
+			<sub> 	: this element we use to get a subscript text. 
+			<input> : this element we use to get a input / value from the use. 
+		
+		Note: the inline element can be used in block element and it will not affect to the layout / block element. 
+			  if we use the block level element in inline element it will be affect to the view of inline element. 
+			  
+=========================================================================================================================
+		
+	List in HTML: 
+		We have three types of list in html. 
+		i) order List:
+		ii) unorder list: 
+		iii) describtion / defination list: 
+		
+	
+	i) Order List: 
+		=> We can give the numbers to the list item in order list. 
+		ex. 
+			1. HTML 
+			2. CSS
+			3. Bootstrap
+			4. Javascript 
+		
+		syntax: 
+			<ol> 
+				<li>HTML  </li>
+				<li>CSS </li>
+				<li>Bootstrap </li>
+				<li> Javascript </li> 
+			
+			</ol> 
+			
+	ii) Unorder List: 
+			the list which has no order / which has no numbering. 
+		ex. 
+		- HTML 
+		- CSS 
+		- Bootstrap 
+		- Javascript 
+		
+		Syntax: 
+			<ul> 
+				<li>HTML  </li>
+				<li>CSS </li>
+				<li>Bootstrap </li>
+				<li> Javascript </li> 
+			
+			
+			</ul> 
+			
+			
+	iii) Defination / Discription List :
+		=> we discrbe or give the defination or information about any title we can use 
+		   defination / discription list. 
+		  
+		ex. 
+			HTML: 
+				Hypertext Text Markup Language 
+			
+			CSS : 
+				Cascading Style Sheet 
+				
+			Bootstrap : 
+				it is a library to create layout and design webpage. 
+				
+			javascript: 
+				it is a scripting language 
+				
+		
+		syntax: 
+			<dl> 
+				<dt> HTML </dt> 
+				<dd> Hypertext Markup Language </dd> 
+				
+				<dt> CSS </
+			
+			</dl> 
+			
+==========================================================================================================
+ATTRIBUTES IN HTML: 
+	=> In HTML attributes provide additional information about HTML element. 
+	=> Attributes always included in the opening tag. 
+	=> It used to modify the behaviour of the element.
+	
+1) id: 
+	=> Specifies a unique identifier for a HTML element. 
+	=> it should unique in whole HTML document. 
+	
+	syntax: 
+		
+		- go to the open tag and use id attributes
+		- after id attributes get a = sign and 
+		- give the id/ value within the " "/' ' sign. 	
+	ex. 
+		<h1 id="myElement"> Content  </h1> 
+
+2) class: 
+	=> specifies one or more class names for an HTML element. 
+	=> the class names will be space separate in the class attribut's value. 
+	=> Classes are used to apply styles or group element with simlar bihaviour. 
+	syntax: 
+		- get a class attribute in open tag of element. 
+		- after class attribute get a = sign 
+		- give the class name/names in the "" sign after = sign 
+	ex. 
+			<h1 class="heading main_content text-green" > heading one: </h1> 
+		
+		
+3) style: 
+	=> Used to apply  styles to the element where we have use this attribute. 
+	
+	syntax: 
+		- get style attribute 
+		- inside of " " there will be two values first as property and second as the value of the property. 
+		- there will be two part in the value of style attribute leftside of : sign will the property ( what design for element ) 
+		  and rightside of the : is the value for property of design type. 
+		
+	ex. 
+		<h1 style="color:red" > Welcome </h1> 
+
+4) src: 
+	=> src stands for source. 
+	=> specifies the source URL of embedded content, such as images, audio, or video
+	
+	syntax: 
+		get src attribute and pass the path/ Url as value in the src 
+		
+	ex. 
+		<img src="images/myimage.jpg"> 
+		<img src="https://static.toiimg.com/thumb/55962482.cms?width=170&height=240&imgsize=118035"> 
+		
+
+5) alt: 
+	=> alt stands here for alternative. 
+	=> provides alternative text for an image. It is displayed if the image cannot be loaded and is also use for accessiblity. 
+	=> it used mostly in <img> tag. 
+	
+	<img src="images/myimage.jpg" alt="this is image of sania">
+	
+	
+6) href: 
+	=> Specifies where to open the linked rource. 
+	=> in <a> if we want to jump on perticular website with the content given in anchor tag. 
+	=> we use href attribute in the value of href will be the url of that perticular wepsite which we want to jump
+	   after click on the anchor content. 
+	
+	ex. 
+		<a href="url" > Go to website Name </a> 
+
+7)disabled: 
+	=> Used to disable user interaction with an input or button. 
+	=> it use for button or input tag 
+	=> not need to give any value to this attribute 
+	ex. 
+	<input disabled type ='text' > 
+
+8) type : 
+	=> it generally use for input element which diceide or give the view of input 
+	   as button, checkbox, inputbox and other. 
+
+	ex. <input type='text' > 
+		<input type='submit'> 
+
+9) placeholder : 
+	=> Used in input generally and it use to give the hint of example in input. 
+	=> it get the view inside of input and it will hide/not displya when we put the value in the inputbox. 
+	
+	ex. 
+		<input placehoder='enter first name'> 
+		
+10) checked: 
+	=> we use this attribute to cheked alread any checkbox element of form. 
+
+	ex. 
+		<input type='checkbox' cheked > 
+
+11) maxlength: 
+	=> this attribute also use for input 
+	=> it decide that how much length will be for your input. 
+	
+
+12) height: 
+	=> to give the hight to any element content of content.
+	=> vertical size length
+	
+13) width: 
+	=> to give the width to any element or content of element. 
+	=> horizontal length
+
+============================================================================================================
+
+Navigation In HTML: 
+	=> we have three types of navigation in html 
+	=> a link / process to connect/interconnect other webpage to our webpage. 
+	=> generally we use <a> tag to create any type of navigation. 
+	
+	i) external navigation
+	ii) internal navigation 
+	iii) same page/ single page navigation. 
+	
+i) external navigation: 
+	=> external: when we link any other webpage in our webpage which is outside of your webpage. 
+	=> whenever we navigate a external / a webpage which is not our won it's called external navigation. 
+	
+	syntax: 
+		<a href='URL' > go to --- </a>
+		
+
+ii) Internal Navigation: 
+	=> internal :the inside part.
+	=> when we navigate our won webpae/ html file to the anchor link it called internal navigation. 
+	
+	sytax: 
+	=> i alread have a file named contact.html
+	=> and i am linking this file to my other file named index.html
+	
+	ex. 
+		<a target="_self" href='folderName/contact.html> go to contact </a>
+
+iii) single page/ same page navigation: 
+	=> when we link a part of current html in current html. 
+	=> create a saperate section in current html 
+	=> use id attribute and give the id Name 
+	syntax: 
+		<a href"#idName" > go to section </a> 
+		
+	=> use the id name as the value of href attribute in anchor tag using # hash/pound sign. 
+
+
+=> We can use target attriute in Anchor tag. 
+=> target: 
+	=> this attribute decide / give the behaviour to our tab/wepage if the given link will open in same tab/widow or in new. 
+	=> we can pass values as: 
+		i) _self : 
+			- the self value show our link navigation in same tab where our page is open/display.(override on same tab) 
+			
+		ii) _blank: 
+			- it show / display our navigation in separate window/tab.
+
+=======================================================================================================================
+			
+Form: 
+
+=> We use form in application / wesite to get the information from user. 
+
+input => 
+lable => 
+br    => 
+
+input type= "radio" 
+	  => we use type radio to get only one value/ information from given options. 
+
+we use two attribute in radio button/ type 
+	i) type = the type for radio button should be radio  ex.<input type="radio" > 
+	ii) name = value of name attribute should same for all the options. otherwise the user can select multiple options. 
+
+type date: 
+	=> we use this type of input to get the date from user. 
+	=> it gives calander/ the options to put / select the particular date. 
+	ex. 
+		<input type='date' > 
+
+dropdown List:
+	=> we can give a list to select a option from given list. 
+	syntax: 
+	=> use select element as parent element. 
+	=> inside of select element use option element to give the list of options. 
+	
+	ex. <select > 
+			<option> option 1 </option> 
+			<option> option 2 </option> 
+		</select> 
+
+	=> we can use a attribute named selected if we want to select any option bydefault. 
+	=> if we don't give the selected attribute for default option it will take first option selected
+	   by default. 
+	 
+	 we use two attribute in dropdown list 
+	=> selected: we use this attribute in drowpdown list if want select any option by default 
+	ex. <option selected> option 3</option> 
+	
+	=> multiple : we use this attribute to select multiple option from given list. 
+	=> multiple attribute we use in parent element that is <select> </select> 
+		ex. <select multiple> 
+			<options> 
+			</select> 
+	=> size: we just show the multple option using size attribute 
+	=> we use this attribute in select element 
+	ex. 
+		<select size="2"> 
+	
+file :
+	=> this type of input gives the option for use to upload any file 
+
+==============================================================================================================
+CSS: 
+	=> cascading style sheet
+	=> to design the html element. 
+	=> Cascading: in detail. 
+	=> styling : desinging. 
+	=> sheet : file
+	=> a file which design html nelement in detail. 
+
+History Of CSS : 
+	=> the first propose for CSS by Hakon Wium Lie : 10 oct 1994 
+	=> hakon wium lie was working with tim berner lee. 
+	=> CSS 1 : 1996 => released by Bert Bos who is the co-founder/co-writer 
+	=> CSS 2 : may 1998 => W3C  
+	=> CSS 3 : June 1999 
+
+=====================================================================================================================
+CSS Types : 
+	=> There are three types of CSS. 
+	i) Inline CSS: 
+		=> When we design any element using style attribute inside of element in html document, it called inline CSS. 
+		
+		ex.  <h1 style='color:red' > welcome </h1> 
+		
+		
+		
+		
+	ii) Internal CSS:
+		=> when we design any element using style element inside of head elemengt it called internal css. 
+		ex. 
+			<head> 
+					<style>
+						h1{ 
+							color:red; 
+						  } 
+					</style> 
+					
+			</head> 
+	
+	
+	iii) External CSS: 
+		process:
+			-> create a css file using .css extension 
+			-> go to html file in head element use <link> tag 
+			-> inside of <link> tag use two attributes 
+				-rel = for decleare the relation between current html and given path of file in href 
+				- href = for give the pathh of css file which we have created. 
+			-> go to the css file and design your elements. 
+
+
+Pririty of Design: 
+	i) Inline CSS: 
+	ii) internal CSS: 
+	iii) External CSS:
+	
+	show the elements, show design of element. 
+
+Why We Use External CSS Mostly?
+Why Should we use external CSS? 
+
+=> for separation in looking perpose. 
+=> out code can become bulky and it can get more time to run. 
+=> we can easily use the external css for multple files and multiple time. (reusability)
+ 
+====================================================================================================
+CSS syntax: 
+	=> CSS rule consists of selector and declearation block. 
+	=> selector: 
+		- selector we use to select perticular element from html file. 
+	
+	=> declearation block :
+		- it is a combination of one or multipe declearation. 
+	
+	=> declearation : 
+		- declearation is a combination of property and it's value. 
+		- declearation is saperated by semicolon (;) 
+	
+		=> property : 
+			- the property defines that which design we are going to give to the element 
+			- property and value saperate by colon isgn (:) 
+			- left side of colon is the property. 
+		=> Value: 
+			- the value deside the exact design on the base of given property. 
+			- right side of colon sign is value in css rules. 
+	
+
+Properties in CSS : 
+	Font's Properties: 
+	
+	Color: 
+		=> we use this property to give the color to selected element. 
+		
+		values=> 
+			i) color Name: 
+				- write the name of color
+			ii) RGB() : red, Green, Blue
+				less -> 0 
+				highest -> 255 
+			iii) RGBA() : red, green, blue and alpha 
+			
+			iv) hexacode: 
+				- every color has unique hexacode 
+				- every hexacode has 6 desit. 2= red , 2=green , 2 = blue 
+				- 0-9(0=smallest , 9 =largest value)  , a-f (a=smallest , f=largest value) 
+				- we dinote the hexa color code using # sign 
+==================================================================================================================	
+	Font Properties: 
+	
+	font-size: to change size of text. 
+    font-style: to give italic style to the text;
+    font-weight:to make bold or highlight the font/text;
+    font-family:to change fot style. 
+    font-variant: to give the text into small size and capital latters;
+	
+=========================================================================================================
+
+Text Properties: 
+	i) text-align:
+		values: 
+			left => line starts at same line from left. / align text from left 
+			right => line will same in one line from right. / align text from right 
+			center => gives same space from left to right. / align text from center 
+			justify => will never give space from both / same from both side left and right / text align justify 
+			
+	ii) text-indent: 
+		value: in px, cm,mm, em, rem
+	
+	iii) text-transform : 
+		values: lowercase, uppercase, capitalized etc. 
+	
+	iv) text-shadow: 
+		values: there are four values we use for this property
+			a) distance at x axis 
+			b) distance at y axis
+			c) lightness of shadow 
+			d) color of shadow 
+		ex. 
+		text-shadow:-2px -2px 8px red ;
+		
+		
+	v)  letter-spacing: 2px;
+		=> to give the space in each latter of text / each spelling of text 
+		=> value should in px , cm, mm, em, rem 
+		
+	vi) word-spacing : 10px;
+		=> to give the spacing withing all the word in text
+		=> value should be in px, cm, mm, em,rem 
+	
+
+
+=================================================================================================================
+Background Properties: 
+
+	i) background-color: 
+		to give the background color to any element. 
+		value => color -> Cname, rgb, rgba, hexacode 
+	
+	ii) background-image : 
+		to give the image as the background. 
+		value => url() 
+		
+		ex. 
+		background-image: url("")
+	
+	iii) background-repeat: 
+		=> it defines if the background images should be repeated or not 
+		values => 
+			a) repeat => it is a default value for this property. 
+			b) repeat-x => to repeat image to x axis only (left to right) 
+			c) repeat-y => to repeat image to y axis only (top to bottom) 
+			d) no-repeat => will not repeat the background image 
+			
+	iv) background-position: 
+		=> it defines that the position of background images 
+		=> values : we pass two values in this property 
+			a) left/right/center : its works on x axis. left to right  
+			b) top/bottom/center : it works on y axis. top to bottom 
+	
+	v) background-size:
+		=> it defines the size of given background 
+		=> values 
+			cover : it will exapand cover the size of element. 
+			auto: it takes size of image 
+			content: it takes size of element where we are giving background. 
+	
+	vi)  background-attachement: 
+		=> it defines if the pages is scrolling the background should scroll or not. 
+		=> values: 
+			scroll: it is default value, and the background will  be scroll with containts 
+			fixed: it will not scroll the background with other containts of webpage. 
+========================================================================================================
+Box Model: 
+	Border: 
+		=> we use this property to give the border to html content.
+		=> we can't see the border to the element until we give border width and border style. 
+		=> border is between of margin and padding. 
+	
+	i) border width : 
+		=> it decide the width/size of the border 
+		=> value: in px, cm, mm 
+	
+	ii) border style: 
+		=> it decide the style of border 
+		=> values: 
+			solid : plane line border 
+			dotted : ................. 
+			dashed : ------------------
+			double : double line border 
+			groov : 3d type border 
+			rigde : 3d type border 
+	
+	* we can give the border saperatly at left/right/top/bottom 
+	iii) border-left-width: 
+		=> it will set the width only to the left border. 
+		like that 
+		border-right-width; 
+		border-top-width; 
+		border-bottom-width; 
+	
+	iv) border color: 
+		=> we can define the color of border 
+		
+		* we can set saperate colors for left,right,top and bottom border using 
+		border-left-color: red;
+		border-right-color: blue;
+		border-top-color: green;
+		border-bottom-color: brown;
+		
+		
+	v) border-radius: 
+		=> this property we use to make soft the corner of border/ radius. 
+		
+		* we can use border radius saperatly like: 
+		border-top-left-radius: 
+		border-top-right-radius:
+		border-bottom-left-radius: 
+		border-bottom-right-radius: 
+		
+		
+================================================================================================================
+Padding: 
+	=> Padding is a space between content and border.
+	padding: 10px 50px 70px 120px; 
+    padding-left:120px ;
+    padding-right:70px ;
+    padding-bottom:40px ;
+    padding-top: 10px;
+    background-color: gold;
+    
+	=> the padding accept the background color of content/element.
+
+Marging: 
+	=> The margin is the space outside of the border 	
+	margin: 50px 10px 20px 10px  ; */
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	
+	=> margin do not accept background color of the content. 
+
+============================================================================================
+Display : 
+	=> block : capture whole width 
+	=> inline : capture content width 
+	
+	values: 
+	inline = it takes requred width only. like a inline element 
+	block = it takes whole width. like block level element 
+	
+	=>using display property we can convert block level element to inline and inline element to block level 
+	
+	inline-block : element get required width as per content and can apply the block level element's other properties 
+	none : it will remove the element from view/ output. also it will not captured the space of element.  
+===============================================================================================
+	visibility : 
+		=> value : hidden 
+			=> it hide the element but it captured the space of element. 
+		=> initial : it is used to set default behaviour of element.
+==================================================================================================
+Position : 
+	=> we use this property to set position of an element. 
+	
+	values: 
+	Absolute: 
+		=> it set the element as per the given values regarding display. 
+		
+		ex. 
+		
+		position : absolute; 
+		top : ---px; 
+		left: ---px; 
+		right: ---px; 
+		bottom : ---px;
+		
+	
+	relative : 
+		=> it set the element position as per the given values regarding to the element before it. 
+	
+	
+======================================================================================
+z-index: 
+	=> this property decide which element will show upside which one to the downside in z axis. 
+	values: number 
+	=> which element get more value of z-index it will come forward. 
+	=> less value of z-index will go backword. 
+
+float: 
+	=> 

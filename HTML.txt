@@ -1,0 +1,585 @@
+SSDE15: 
+
+HTML : 
+	- What is HTML? 
+	- HTML is stand for Hypertext Markup Language
+	- Which is the import language to design a web age. 
+	- Hypertext: 
+		- a text within text a link within it is a hypertext. 
+	- Markup language: 
+		- it use to create a layout of webpage
+	- webpage: 
+		- A web page is a document which is commonly written in HTML. translated by a web browser. 
+	
+	========================================================================================
+	
+HTML History : 
+	- Tim Berners-Lee : 
+		- the founder of HTML : 1991
+		- inventor of www 1989 
+		- w3c : world wide web consortium : director and member 
+	- HTML 1.0: 
+		- it is frist version of HTML : 1991
+	
+	- HTMl 2.0: 1995
+
+	- HTML 3.2 : version was bublished by W3C 1997. 
+	
+	- HTML 4.01 : 1999 - which support CSS. 
+	
+	- HTML 5 : it is the newst version of HTMl 2008. 
+	
+===========================================================================
+html 
+i) tag = it's open only ex. <br> <img> <hr> 
+ii) element = it open and close  <a> </a> 
+
+html TAG :
+	- HTML Tags are like keywords which defines the formate the first on web page. 
+	- all HTML must enclosed within  these brackets. 
+	- every tag in HTML perform different task. 
+
+html ELEMENT:
+	- An element in HTML consistst of opening and closing. 
+	
+	i) block level element: 
+		- A block lvel element always start with new line, 
+		- it takes te full width of web page left-right. 
+		some of block level element : 
+			h1- h6: 
+				- these all are the block level element which we use as heading or as per 
+				  requirment. 
+				  
+			p : 
+				- it use to add the paragraph or simple text 
+				
+			div: 
+				- it is a block level element 
+				- it is a container also.
+			
+			br: 
+				- br tag use to break the link
+			
+			hr: 
+				- it gives horizontal line in wepage. 
+			
+			small : 
+				- to get a hiddent text. it a small text than normal
+			
+			section: 
+				- it use as a section/part of the webpage 
+				- it also works as container
+		
+	ii) inline element : 
+			- it will start from new line
+			- it will not takes all width it will get only as per containt give inside 
+			 ex. 
+			a: 
+				- it is use to navigation. 
+			
+			b:	
+				- it is a inline element which use to make bold the text. 
+			
+			i: 
+				- it makes text italic to make spacial 
+	====================================================================================
+	link and Navigation: 
+		
+		link
+			it is the word/text which connected to other section
+		navigation: 
+			to join any section on given text link. 
+			
+		attribute: 
+			- it is the keywords which we use to design or to give the particular task/function 
+			  to the content 
+			
+			Sania Mirza = link 
+			            = wikipedia sania miza
+		a: 
+			- we use this element to navigate any other file / webpage and other
+			attribute : 
+				href: 
+					- this attribute we use to give the address of that section/wepage which 
+					  we want to give in give anchor tag. 
+				target:
+					- this attribute we use to target the navigation part in same tab or in 
+					  other saparate tab/ window. 
+	
+	
+	TYPE OF NAVIGATION:
+	i) external navigation: 
+		
+		- when we link/navigate any external page (out side page) in our webpage it called 
+		  external navigation. 
+		  
+	ii) internal navigation/mpn:
+		- when we link/navigate any other html/ not current file it called internal navigation. 
+		
+	iii) signle page navigation: 
+		- when we link any part of the current file/page/document with anchor tag its called 
+		  single page navigation. 
+
+========================================================================================
+img :
+	<img> = tag 
+	- if we want to get any image/photo in our webpage, we use <img> tag 
+	syntax: 
+		<img >
+
+	attribute: 
+		src="(address of image/source of image)" :
+			- it define the source/ address.
+			- there will two type of values 
+				i) from your computer which is already downloaded
+				ii) we can give the image address from any website. 
+					- go to the image online -> right click on the image -> select copy image address
+					-> come back to vs code and paste the image address in src value. 
+					
+		
+		alt="this is logo": 
+			- if by any reason the image will not display then what should be diplay there 
+			  that is the values of alt attribute. 
+			- if the image will not dislpay the output will be "this is logo" 
+		
+		width="200px": 
+			- it define the width of given image 
+			- the values will be in px (length unit) 
+		
+		height= "300px" 
+			- it define the height of given image.
+		
+		* it get the height and width in pixel unit by default.
+============================================================================
+
+
+list : 
+
+	order list:
+		- it display the list with numbers 
+		parent element : ol 
+		child element : li 
+			
+	
+	
+	unorder list : 
+		- it display the list with bullets
+		parent element :ul 
+		child element : li 		
+	
+	describtion list: 
+		- Tile and Discribtion
+		parent element : dl 
+		child element : dt = title , dd = data
+		
+=====================================================================================		
+
+
+form : 
+	- when we want to get any information/ input from the user. 
+	
+	syntax: 
+		form 
+		
+		lable /lable
+			for="what for we this label"
+		
+		input
+			type= "which type of inputbox should here" 
+			
+			text, password, email, submit, reset, checkbox, date, color, week,  
+		
+		radio= 
+			we use radio button when we want to select only one from given then we use radio button. 
+			
+			syntax: 
+				- input type should be 'radio' 
+				- the name of every radio input should be same. 
+			---------------------------------------------------------------
+			dropdown list: 
+				- we use dropdown list when we want to give the option for user selection. 
+				
+				syntax: 
+					<select> 
+						<option> Mumbai </option>
+						<option> Mumbai </option>
+						<option> Mumbai </option>
+						<option> Mumbai </option>
+					</select> 
+				
+			attribute : 
+				selected : to display the particular option already in the listbox. 
+				size="4" (numeric values): how many list item you want to show in the list box combinly. 
+				multiple: to give the facality to select multiple options. 
+						  user should use ctrl/ shift button to select multiple options. 
+		========================================================================================
+				
+		/form 
+
+	
+
+	===========================================================================
+	CSS: 
+		- css is stand for cascading(in detail) style sheet. 
+		- css is a language which we use to style an HTML element. 
+	History of CSS:
+		- css was first proposed by Hakon Wium Lie, 10 Oct 1994. 
+		- Hakon Wium Lie was working with tim berner Lee.
+		
+		- CSS1 : 1996 -> Bert Bos was the co-writer/ co-founder of css.
+		- CSS 2: W3C -> May 1998 
+		- CSS 3: June 1999 
+		
+==================================================================================
+
+CSS Types: 
+	There three type of CSS. 
+	
+	i)inline : 
+		- when we design any element using style attribute / inside of element in html document. 
+	ii) internal 
+		- when we dsign any element using style element inside of head element it called internal css
+	iii) external 
+		- when we create a css file, link it in head lement in html using <link> tag it called external css. 
+		- <link> 
+			attribute: 
+				rel="stylesheet":
+					- the relationship between both file. 
+				
+				href="(path)":
+					- it use to give the path of css file. 
+		- 
+	
+	Pririty: 
+		- inline css
+		- internal css 
+		- external css 
+===========================================================================++====
+
+CSS syntax: 
+	- A CSS rule consists of selector and declearation block 
+	i) selector: 
+		- selector select that particular element of html which we want to design. 
+	
+	
+	ii) declearation block :
+			=> declearaton : declearation saparate using I(;) 
+					=> 
+					
+						a) property : 
+							- left side of colon we called property. 
+							- to give the instruction which type of design should in element.
+						
+						b) value: 
+							- exact changes with particular values. 
+							
+		- property and values saparate using (:) colon sign. 
+							
+
+	property 		value
+	color 	:		red;
+	fontsize: 		40px;
+	border:			solid, px, 
+		
+	
+===================================================================================
+
+property : values; 
+
+font: 
+	color= to change the color of the text. 
+	values: 
+		i) color name: 
+			- write the name of color. 
+		ii) RGB() Red green blue : 
+			- less value = 0 
+			- max = 255
+			
+		iii) rgba () red, green, blue, alpha. 
+		
+		iv) hexacode: 
+			- it a six degit number start with # sign. 
+			- 0-9 , a-f 
+			- ff is maximum value 
+			- numberic (0-9) and aphabetical (a-f )
+	
+	* font-size : 
+		- to change the size of text. 
+		values: 
+			px, cm, mm, rem ,em 
+			
+	* font-style: 
+			- to make italic / oblique the font 
+	
+	* font-weight: 
+			- to handle the thickness of text. 
+			- 100(lighter)-900(bold)
+			- bold , bolder 
+	
+	* font-varient : 
+			value: 
+				small-caps= the text will be in capital letter but size will small 
+				            than the html capital latter. 
+	
+=====================================================================================
+
+background properties: 
+	background-clor: it set the background with color / image. 
+	values: 
+		color= color name, rgb, rgba, hex-code 
+		
+
+	
+============================================================================
+text : 
+	i) text-align: 
+		- where from the text should start/ alignment of text. 
+		- values: 
+			left= it is default values. text will align with left side.  
+			right= text will align from right side 
+			center = text will align from center and put the space to left and right side 
+			          with same length. 
+			justfy = it will remove the space from left and right side and cover the text 
+			          with same alignment from left and right. 
+					  
+	ii) text-decoration: 
+		- to decorate the text with the value of 
+			underline: it put the line under the text. 
+		- overline: put the line over the text 
+		- linethrough: put the line through the text 
+		
+	iii) text-transform : 
+		- it make the changes in the text as the values give below : 
+		- uppercase : it change the alphatic in capital letter. 
+		- lowercase: it change the alphatic into lowecase lower letters. 
+		- capitalize: it change each first alphabet/letter of each word into capital / uppercase. 
+	
+	iv) letter-spacing : 
+		- it work to give the space between each leeter in the text. 
+		values : 
+			px
+		
+	v) word-spacing: 
+		- it work to give the space between each word 
+		values: 
+			px 
+
+================================================================================
+
+		i) margin 
+			- it is the space / area outside of border 
+			- it does not capture our background-color/ it transferent color.
+		we can use saparate size of margin to all the side 
+		ex. 
+			margin-top: 10px;
+			margin-left: 20px;
+			margin-bottom: 70px;
+			margin-right: 5px;
+
+
+			
+		ii) borders
+			border-style: 
+					- it decide the style of border. 
+					values: solid , dashed, double, rigde, groove, dotted  
+					
+			border-left-style:dotted ;
+			border-right-style:double ;
+			border-bottom-style: ridge;
+			border-top-style: dashed;
+					
+					
+					
+			border-width: 
+					- iit decide the size of border. 
+					values: 10px, thick, medium, thin,; 
+					
+					border-right-width: 20px;
+					border-left-width: 5px;
+					border-bottom-width:thin ;
+					border-top-width: 50px;
+					
+			
+			border-color: 
+					- it set the color of border 
+					values: color. 
+									
+					border-left-color: blue;
+					border-right-color: green;
+					border-top-color: orange;
+					border-block-color: brown;
+
+			border-radius: 
+					- it make soft to the corner of the box. 
+					- values: numeric unit. 
+				* we can use saparate border-radius with different values. 
+				ex. 
+					border-top-left-radius:50px ;
+					border-top-right-radius: 70px;
+					border-bottom-left-radius: 60px;
+					border-bottom-right-radius: 5px;
+							
+						
+			iii) padding: 
+				- padding is the space between content and border. 
+				- it capture the content background-color. 
+				
+				padding: 20px; 
+				value: numeric unit.
+				* we can use saparate padding for all the fourside of box. 
+				padding-left: 50px;
+				padding-top: 70px;
+				padding-right: 10px;
+				padding-bottom: 100px;
+		
+	
+	iv) 
+	
+	
+	CSS BOX MODEL : 
+	- All HTML element can be considered as box. 
+	- css box model wraps around every html element. it consists of: 
+	
+	in the box model we include the main properties like 
+		
+		
+		* which we get in html that is content. 
+		content: 
+		- every that thing which we use/ get in the html element and can show/get a view on 
+		  browser it called content. 
+		  
+		  
+		i) border
+				a) border-style: 
+				b) border-width: 
+				c) border-color: 
+				d) border-radius: 
+				border: 10px solid blue;
+					porperty: size, style, color; 
+					
+		ii) padding 
+				a) padding-left: 
+				b) padding-rihgt: 
+				c) padding-bottom: 
+				d) padding-top: 
+		iii) margin 
+				a) margin-left
+				b) margin-right
+				c) margin-bottom
+				d) margin-top 
+				
+		iv) border-radius 
+				a) border-top-left-radius: 
+				b) border-top-right-radius: 
+				c) border-bottom-left-radius: 
+				d) border-bottom-right-radius: 
+	
+	in all the main properties: 
+		if we use: one, two, three, four values. 
+		
+=============================================================================
+POSITION: 
+	- we use postion properties to position / set to the particular place to the element.
+	- we have to use the left,right,top,bottom properties/ subproperties of position 
+	  to set the element where we want. 
+	
+	i) position: absolute; 
+		- it relate to the viewport directly.
+		- will not follow the box model. 
+	
+	
+	ii) position:static; 
+		- it is the position which we give with html. 
+		- static is default position 
+		
+		
+	iii) position :relative;
+		- it relate with the static position/ with the position which given by html. 
+		- follow the boxmodel padding, margin
+		
+	iv) postion : fixed; 
+		- it fixed the element where we have give the position fixed using top,bottom,left, right
+		- it will not scroll the element if the page is scrolling. 
+		
+=======================================================================
+
+
+		
+Static Web Layout: 
+		- the layout/ the basict structure of any webpage which will not flexible. 
+		
+		- the web layout contain the basic part's of any wepage. 
+			ex. header, footer, mainbody, aside, menu. 
+		
+		- 
+		
+		
+		
+		
+
+computer = > 
+laptop 	 = >
+ipad 	 = > 
+mobile 	 = > 
+
+========================================================================
+selectors in CSS:
+	
+	Simple Selctor: 
+		i)  Element selector /using element name 
+		ii) Class selector / using class name / . sign 
+		iii) id selector / using id name / using # sign 
+		iv) universal selector: 
+			- universal select we use to select all the element in html document. 
+			- we use * sign to use universal selector. 
+
+==================================================================================
+i) Web layout:
+	- we layout is the basic structure of any web page 
+	- where we use some common element/ part of webpage 
+	- the web layout contain the basic part's of any wepage. 
+			ex. header, footer, mainbody, aside, menu. 
+			
+			
+			
+ii) static web layout. 
+	- the basic structure of any webpage which will not flexible/ will not change 
+	  device by device.
+	
+iii) use div : 
+	- we use div as a container of other elements / group of elements or  
+	- we use it to create a layout part of wepage as a box. 
+
+	
+iv) selector : 
+	- selector helps us to select any particular element of html document for 
+	  designing.
+	- there five type of selector 
+	
+	a) simple Selector => 
+				i) element selector : 
+					- use element name to select the element by class selector. 
+				ii) class selector:
+					- use class attribute in html
+					- go for css and use the value of class attribute with . sign 
+					ex. 
+					html                     |        css
+					<h1 class=heading> </h1> |    .heading{property:value;}
+					
+				iii) id selector:
+					- use id attribute to select element by id selector. 
+					- go for css and use the value of id attribute with # sign 
+					ex. 
+					ex. 
+					html                     |        css
+					<h1 id=heading> </h1>    |    #heading{property:value;}
+					
+				iv) universal selector: 
+					- we use element selector to select all the element. 
+					- we use * sign to use this selector
+					ex. 
+					html                     |        css
+											 |    *{property:value;}
+											 
+				v) * we have skip the grouping selector 
+====================================================================================

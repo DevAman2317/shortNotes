@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    
+    <title>Document</title>
+</head>
+<body>
+  
+<ol>
+    தமிழ் கட்டுரைகள்
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap</li>
+    <li>Javascript</li>
+</ol>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus suscipit dolor sapiente voluptates maiores rem nam quibusdam mollitia consequuntur ipsum repellat, id cupiditate et perspiciatis! Delectus porro praesentium aliquam recusandae.</p>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap</li>
+    <li>Javascript</li>
+</ul>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Hypertext Markup Language</dd>
+
+    <dt> CSS</dt>
+    <dd>Cascading Style Sheet</dd>
+
+    <dt>Bootstrap</dt>
+    <dd>It is a opensource labrary to design and layout to webpage </dd>
+
+    <dt>Javascript</dt>
+    <dd>It is a scripting language which use give the behaviour to webpage</dd>
+</dl>
+
+    <a  href="https://www.instagram.com/">go to instagram</a>
+<br>
+    <input  type="text" placeholder="enter first name">
+<br>
+    <input checked type="checkbox">Marathi <br>
+    <input type="checkbox" > English <br>
+    <input type="checkbox"> Math
+    
+    <input type="text" maxlength="10">
+    <h1 style="background-color:yellow">welcome</h1>
+
+</body>
+</html>
